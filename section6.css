@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-color{
+    background-color: black;
+    color: white;
+    height: 800px;
+}
+.team{
+    width: 364px;
+    height: 58px;
+    text-align: center;
+    margin: 0 auto;
+}
+.meet{
+    margin-bottom: 14px;
+}
+.trainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    border: 2px solid red;
+    height: 1060px;
+    width: 600px;
+}
