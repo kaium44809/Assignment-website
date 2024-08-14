@@ -12,13 +12,15 @@
     <header class="bg-01">
         <nav class="navbar display-flex">
             <h3 class="fitness color-04">Fitness</h3>
+            <div class="nav-border">
             <ul class="nav-links display-flex">
                 <!-- li.nav-item*4>a.nav-link -->
                 <li class="nav-item"><a href="" class="nav-link color-01"><button class="navnar-btn btn-primary btn-style">Home</button></a></li>
                 <li class="nav-item"><a href="" class="nav-link color-01">Service</a></li>
                 <li class="nav-item"><a href="" class="nav-link color-01">Contact us</a></li>
                 <li class="nav-item"><a href="" class="nav-link color-01">About</a></li>
-            </ul>
+            </ul> 
+        </div>
         </nav>
         <div class="banner-section display-flex">
             <div class="healthy">
@@ -31,12 +33,25 @@
                 <img src="./images/Images 2.png" alt="">
             </div>
         </div>
+        <div class="effects-01 glass-effects">
+            <h2 class="color-01 font-09">500+</h2>
+            <p class="color-03 font-03">Free Workout Videos</p>
+        </div>
+        <div class="display-flex glass-effects effects-02">
+            <div>
+                <img class="orange" src="./images/orange.jpg" alt="">
+            </div>
+            <div>
+                <h2 class="color-01 font-09">350+</h2>
+                <p class="color-03 font-03">Video tutorial</p>
+            </div>
+        </div>
         <div class="habits-section">
             <h1 class="font-02 color-01">Change Your Habits</h1>
             <p class="font-03 color-02 access">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
         </div>
         <div class="challenge-habits display-flex">
-            <div class="habits-01">
+            <div class="habits-01 margin-bottom">
                 <img class="radius" src="./images/image 3.png" alt="">
                 <h4 class="font-04 align color-01">Movement</h4>
                 <p class="font-03 align color-02">We believe fitness should be <br> accessible to everyone</p>
@@ -73,15 +88,14 @@
             <div>
                 <h1 class="font-02 color-01 top style">Trainings and Exercises</h1>
                 <p class="font-03 color-02 height style">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-            </div>
-        </section> -->
-        <section>
+            </div>                  
+        <section> -->
             <h1 class="font-02 color-01 style top">BMI Calculator</h1>
             <p class="font-03 color-02 height style">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             <div class="display-flex bmi-style glass-effects-02 top">
             <div class="BMI-Calculator-Chart">
                 <h3 class="color-01 caption">BMI Calculator Chart</h3>
-                <table border="1" cellspacing="0" height="250px" width="500px">
+                <table border="1" class="margin-left bottom" cellspacing="0" height="250px" width="500px">
                     <tr class="font-06 color-01 ">
                         <th>BMI</th>
                         <th>Weight Status</th>
@@ -109,7 +123,7 @@
                 <h3 class="color-01 text">Calculate your BMI</h3>
                 <p class="color-02 text">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </p>
             </div>
-            <div class="input-field">
+            <div class="input-field text">
                 <input class="bg-02" type="text" placeholder="Height/cm">
                 <input class="bg-02" type="text" placeholder="Weight/kg">
             </div>
@@ -120,10 +134,10 @@
                 </select>
             </div>
             <div>
-                <select name="" id="" class="bg-02 select color-03">
-                    <option value="">Select an activity factor</option>
+                <select name="activity" id="activity" class="bg-02 select color-03">
+                    <option class="margin-top" value="activity factor">Select an activity factor</option>
                 </select>
-            </div>
+            </div><br>
             <div>
                 <button class="navnar-btn remove-color btn-primary btn-style height">Calculate</button>
             </div>
@@ -132,8 +146,10 @@
         </section>
         <!-- Meet Our Team section -->
         <section class="container our-team">
-                <h1 class="font-02 color-01 style top">Meet Our Team</h1>
+            <div class="top-02">
+                <h1 class="font-02 color-01 style">Meet Our Team</h1>
                 <p class="font-03 color-02 style">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym.</p>
+            </div>
                 <div class="glass-effects-03">
                 <div class="margin-left row-01 display-flex">
                     <div class="card">
@@ -171,27 +187,59 @@
                 </div>
             </div>
             </section>
-    </main>
-    <footer class="bg-01 display-flex footer-section">
+            <!-- Bonus Section -->
+            <section id="about" class="about">
+                <div class="containers">
+                    <div class="about-title">
+                        <h2 class="font-02 color-01">About Us</h2>
+                        <p class="color-02 paragraph-2">We believe fitness should be accessible to everyone, everywhere regardless of income or access to a gym.</p>
+                    </div>
+                    <div class="row">
+                        <div class="about-box">
+                            <img src="./images/card1.jpg" alt="">
+                            <div class="about-text">
+                                <h4>Free Consultation</h4>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempore officiis praesentium ipsam alias temporibus neque aliquid doloribus est accusamus!</p>
+                            </div>
+                        </div>
+                        <div class="about-box">
+                            <img src="./images/card2.webp" alt="">
+                            <div class="about-text text-box">
+                                <h4>Best Training</h4>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempore officiis praesentium ipsam alias temporibus neque aliquid doloribus est accusamus!</p>
+                            </div>
+                        </div>
+                        <div class="about-box">
+                            <img src="./images/card3.jpg" alt="">
+                            <div class="about-text">
+                                <h4>Build Perfect Body</h4>
+                                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempore officiis praesentium ipsam alias temporibus neque aliquid doloribus est accusamus!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+    <section class="display-flex footer-section glass-effects-02 top">
         <div>
-            <h3 class="fitness color-04">Fitness</h3>
+            <h3 class="fitness color-04 top-03">Fitness</h3>
             <P class="color-02 font-03">We believe fitness should be accessible to everyone,<br> everywhere, regardless of income or access to a gym. With <br> hundreds of professional workouts.</P>
         </div>
         <div>
-            <h3 class="font-07 color-01">Get Started</h3>
+            <h3 class="font-07 color-01 top-03">Get Started</h3>
             <p>Service</p><br>
             <p>Contact Us</p><br>
             <p>Affiliate Program</p><br>
             <p>About Us</p><br>
         </div>
         <div>
-            <h3 class="font-07 color-01">Get Started</h3>
+            <h3 class="font-07 color-01 top-03">Get Started</h3>
                 <p>Fitness</p><br>
                 <p>Platform</p><br>
                 <p>Workout Libary</p><br>
                 <p>App Design</p><br>
         </div>
-    </footer>
-    
+    </section>
+</main>
 </body>
 </html>

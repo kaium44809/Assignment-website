@@ -8,10 +8,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+.nav-links{
+    align-items: center;
+}
 .inter-font{
     font-family: "Inter", sans-serif;
 }
 /* Shared Style */
+.orange{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    margin-right: 9px;
+    margin-top: 6px;
+}
+.effects-01{
+    position: absolute;
+    top: 200px;
+    left: 12%;
+    margin-left: 900px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.effects-02{
+    position: absolute;
+    top: 450px;
+    right: 340px;
+    margin-left: 900px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
 .footer-section{
     justify-content: space-around;
 }
@@ -54,6 +85,7 @@
     width: 320px;
     /* border: 2px solid red; */
     align-items: center;
+    margin-right: 40px;
 }
 
 
@@ -68,9 +100,14 @@
 .table-section{
     flex-direction: column;
 }
-
+.margin-top{
+    margin-top: 10px;
+}
+.bottom{
+    margin-bottom: 30px;
+}
 .text{
-    margin-top: 14px;
+    margin-top: 20px;
     margin-bottom: 14px;
 }
 .caption{
@@ -101,13 +138,20 @@
     text-align: center;
 }
 .top{
-    margin-top: 140px;
+    margin-top: 100px;
+}
+.top-02{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.top-03{
+    margin-top: 40px;
 }
 .extra-mile{
     margin-left: 55px;
 }
 .height{
-    margin-top: 14px;
+    margin-top: 10px;
 }
 .run-an-extra{
     justify-content: space-between;
@@ -129,7 +173,9 @@
     justify-content: space-between;
     width: 1000px;
     margin-left: 230px;
-
+}
+.margin-bottom{
+    margin-bottom: 80px;
 }
 .run-an-extra{
     align-items: center;
@@ -199,6 +245,10 @@ h3{
     text-decoration: none;
     font-weight: 500;
 }
+.nav-border{
+    border: 1px solid white;
+    border-radius: 30px;
+}
 .navbar{
     justify-content: space-between;
     align-items: center;
@@ -215,11 +265,11 @@ h3{
 /* button related style */
 .navnar-btn{
     border-radius: 46px;
-    padding: 10px 20px; 
+    padding: 10px 30px; 
     font-weight: 600;
     font-size: 18px;
     border: none;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 .navbar-btns{
     margin-top: ;
@@ -286,6 +336,10 @@ h3{
     font-weight: 400;
     font-size: 23px;
 }
+.font-09{
+    font-weight: 900;
+    font-size: 40px;
+}
 .fitness-content{
     font-weight: 400;
     font-size: 20px;
@@ -295,12 +349,12 @@ h3{
 }
 .glass-effects{
     margin-right: 220px;
-    background: rgba( 255, 255, 255, 0.3 );
+    background: rgba( 255, 255, 255, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 2px );
     -webkit-backdrop-filter: blur( 2px );
     border-radius: 10px;
-     border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
 }
 .glass-effects-02{
     margin-right: 220px;
@@ -311,6 +365,7 @@ h3{
     /* border-radius: 10px; */
      border: 1px solid rgba( 255, 255, 255, 0.18 ); 
      width: 100%;
+
 }
 .glass-effects-03{
     margin-right: 240px;
@@ -335,8 +390,66 @@ h3{
 .images-container{
     /* border: 2px solid red; */
     align-items: center;
-    margin-right: 10px;
+    /* margin-right: 30px; */
     width: 366px;
     height: 312px;
     /* border-radius: 18px; */
+}
+/* Bonus section */
+.about{
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+.about .about-title h2{
+    text-align: center;
+}
+.about .about-box{
+    /* border: 2px solid red; */
+    background-color: white;
+    height: auto;
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+}
+.about .about-box img{
+    width: 100%;
+    height: 240px;
+    transition: all 0.4s;
+    overflow: hidden;
+}
+.about .about-box p{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about .about-box{
+    margin-bottom: 50px;
+}
+.about .about-box .about-text{
+    /* padding: 4px; */
+}
+.about .about-box:hover{
+    transform: scale(1.1);
+}
+.about .about-box .about-text h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.about .about-box .text-box{
+    
+}
+.paragraph-2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.run-an-extra-02{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 290px;
+}
+.about-box{
+    margin-left: 130px;
 }
