@@ -269,6 +269,11 @@ h3{
     border: none;
     margin-left: 0px;
 }
+.transparent{
+    background: transparent;
+    border: 1px solid white;
+    color: white
+}
 .navbar-btns{
     margin-top: ;
 }
