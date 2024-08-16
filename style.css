@@ -74,7 +74,6 @@
     top: 80%;
     left: 10%;
 }
-
 .container img{
     width: 100%;
     filter: brightness(70%);
@@ -85,10 +84,8 @@
     width: 320px;
     /* border: 2px solid red; */
     align-items: center;
-    margin-right: 40px;
+    margin-right: 0px;
 }
-
-
 .select{
     height: 30px;
     width: 570px;
@@ -136,6 +133,7 @@
 }
 .style{
     text-align: center;
+    margin-bottom: 20px;
 }
 .top{
     margin-top: 100px;
@@ -367,8 +365,8 @@ h3{
      width: 100%;
 }
 .glass-effects-03{
-    margin-right: 240px;
-    margin-left: 240px;
+    margin-right: 260px;
+    margin-left: 260px;
     background: rgba( 255, 255, 255, 0.3 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 2px );
